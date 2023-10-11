@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Projeto HTML - 01</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar-top">
+                <img class="navbar-logo" src="./images/logo.png" alt="">
+                <ul class="navbar-menu">
+                    <li><a href="index.html">Home</a></li><div class="hr"></div>
+                    <li><a href="quem_somos.html">Quem somos</a></li><div class="hr"></div>
+                    <li><a href="contato.html">Contatos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <aside>          
+            <h1>Entre em contato conosco</h1>
+            <p>Lorem ipsum dolor sit amet. Aut quia cumque et internos.
+            <form action="/contato.html" action="POST">
+                <label for="email">Email</label>
+                <input required placeholder="Digite sem email" name="email" type="email" />
+                <label for="assunto">Assunto</label>
+                <input required placeholder="Digite um assunto" name="assunto" type="text" />
+                <label for="descricao">Descrição</label>
+                <textarea required placeholder="Digite uma descrição">
+
+                </textarea>              
+                <input type="submit"value="Enviar" />
+            </form>
+        </aside>
+
+        <div class="footer"> <p> Todos os direitos reservados </p></div> 
+
+    </div>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+        })
+    </script>
+
+</body>
+
+</html>
